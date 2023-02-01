@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar1 from './Navbar1'
 
-const Home = () => {
+const AdminLogin = () => {
   return (
     <div>
       <Navbar1/>
-      Home</div>
+      AdminLogin</div>
   )
 }
 
-export default Home
+export default AdminLogin

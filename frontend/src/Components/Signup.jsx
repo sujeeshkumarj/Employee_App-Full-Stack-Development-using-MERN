@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar1 from './Navbar1'
 
 const Signup = () => {
   return (
-    <div>Signup</div>
+    <div>
+      <Navbar1/>
+      Signup</div>
   )
 }
 
