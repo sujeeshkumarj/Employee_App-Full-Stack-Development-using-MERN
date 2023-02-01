@@ -6,9 +6,7 @@ import Login from './Components/Login';
 import Signup from './Components/Signup';
 import UserView from './Components/UserView';
 import AddEmployee from './Components/AddEmployee';
-import AdminView from './Components/AdminView';
-import AdminUpdate from './Components/AdminUpdate';
-import AdminDelete from './Components/AdminDelete';
+import Admin from './Components/Admin';
 function App() {
   return (
     <div>
@@ -19,9 +17,7 @@ function App() {
           <Route path='/signup' exact element = {<Signup/>}/>
           <Route path='/userview' exact element = {<UserView/>}/>
           <Route path='/addemployee' exact element = {<AddEmployee/>}/>
-          <Route path='/adminview' exact element = {<AdminView/>}/>
-          <Route path='/adminupdate' exact element = {<AdminUpdate/>}/>
-          <Route path='/admindelete' exact element = {<AdminDelete/>}/>
+          <Route path='/admin' exact element = {<Admin/>}/>
 
       </Routes>
       </BrowserRouter>
