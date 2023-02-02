@@ -59,10 +59,10 @@ const Login = () => {
               <label htmlFor="" className="form-label">Email Id</label>
               <input type="text" 
               className="form-control"
+              name="Email"
               placeholder='Type Registered Email id'
               onChange={handler}
               value = {data.Email}
-              name="Email" 
               />
 
             </div>
@@ -71,10 +71,10 @@ const Login = () => {
               <label htmlFor="" className="form-label">Password</label>
               <input type="text" 
               className="form-control" 
+              name="Password"
               placeholder='Type Your Password'
               onChange={handler}
               value={data.Password}
-              name="Password"
               />
             </div>
             <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
