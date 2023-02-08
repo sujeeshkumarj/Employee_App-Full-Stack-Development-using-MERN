@@ -5,7 +5,7 @@ import axios from 'axios';
 import Navbar1 from './Navbar1';
 
 const Login = () => {
-  let Navigate=useNavigate();
+  const Navigate=useNavigate()
   const [data,setlogdata]=useState(
     {
       Email:"",
@@ -78,7 +78,7 @@ const Login = () => {
               />
             </div>
             <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
-              <button className="btn btn-success" onClick={readvalue}>Login</button>
+              <button className="btn btn-success" onClick={readvalue} onDoubleClick ={ () => Navigate('/userview')}>Login</button>
               <a href="/signup">Create New Account</a>
             </div>
           </div>

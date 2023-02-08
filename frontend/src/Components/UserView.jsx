@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom'
 
 
 
 
 
 const UserView = () => {
+    const Navigate=useNavigate()
   var [employeelist,setEmployeelist] = useState([]);
   useEffect(
       ()=>{
@@ -60,6 +62,7 @@ const UserView = () => {
                     </table>
                 </div>                       
             </div>
+            <button onClick={() =>Navigate(-1)}>Logout</button>
         </div>
     </div>
 </div></div>
